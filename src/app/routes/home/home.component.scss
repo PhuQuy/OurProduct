@@ -11,3 +11,21 @@
   width: 100%;
   max-width: 880px;
 }
+
+.bg-gardient {
+  background-image: red;
+  background: linear-gradient(to right, #82A2F9 0%, #C499F5 100%);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.content-center {
+
+  h1 {
+    font-size: 30px !important;
+    padding-top: 10%;
+  }
+  h3 {
+    font-size: 15px !important;
+    padding: 0 20% 0 20%
+  }
+}

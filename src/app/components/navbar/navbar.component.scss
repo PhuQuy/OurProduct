@@ -1,0 +1,30 @@
+nav {
+    .nav-item {
+        .btn-broland {
+            color: #82A2F9;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+
+    a {
+        transition-duration: 0.5s;
+    }
+
+    div a:hover {
+        -webkit-transform: rotate(-5deg) scale(1.2);
+        -moz-transform: rotate(-5deg) scale(1.2);
+        -o-transform: rotate(-5deg) scale(1.2);
+    }
+}
+
+.bg-primary {
+    transition-duration: .3s;
+    background: linear-gradient(#82A2F9 0%, #C499F5 100%);
+}
+
+.transparent {
+    background: transparent !important;
+}
+
