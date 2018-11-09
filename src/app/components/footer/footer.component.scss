@@ -1,0 +1,135 @@
+//  Footer 
+.footer-custome {
+  background-color: #8982F6;
+  font-family: 'Montserrat';
+  padding: 0;
+
+  .btn {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+// subscribe
+#subscribe {
+  min-height: 150px;
+  position: relative;
+}
+
+#middle {
+  &>div {
+    padding: 35px;
+    height: 100%;
+  }
+
+  p {
+    height: 40px;
+  }
+}
+
+// form input
+.input-group {
+  border-radius: 25px;
+  box-shadow: 0 0 20px 0px #888888;
+
+  input {
+    border-radius: 25px 0px 0px 25px;
+    cursor: text;
+
+    &:focus {
+      border: none;
+    }
+
+    &::placeholder {
+      opacity: 1;
+      color: #111111;
+    }
+  }
+
+  button {
+    border-radius: 0px 25px 25px 0px;
+    background-image: linear-gradient(to right, #43BFDA, #82AED5) !important;
+  }
+}
+
+//  Group and Link
+#links {
+  padding-top: 145px;
+  padding-bottom: 130px;
+}
+
+.list-group>.link,
+.link>a {
+  color: #d6d4f4;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.link>a:hover {
+  color: #efeffa;
+}
+
+.list-group {
+  &>.link:first-child {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  &>.link a {
+    padding: 0;
+    text-transform: none;
+  }
+}
+#copy {
+  padding: 15px;
+}
+
+@media (min-width:768px) {
+  #inner {
+    top: 50%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    right: 10px;
+
+  }
+
+  #middle {
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 0 20px 0px #888888;
+    border-radius: 15px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .col-sm-6 {
+    padding-left: 80px;
+  }
+
+  #inner {
+    position: static;
+    right: 0;
+    top: 0;
+  }
+
+  #middle div p {
+    text-align: center
+  }
+}
+
+@media (max-width: 575px) {
+  .list-group {
+    width: 50%;
+    margin: auto;
+    padding-left: 40px;
+  }
+
+  .col-sm-6 {
+    padding: 0;
+  }
+}

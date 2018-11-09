@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
+
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './routes/home/home.component';
@@ -23,11 +25,10 @@ import { LogInComponent } from './routes/log-in/log-in.component';
     SignUpComponent,
     LogInComponent
   ],
-  imports:[
- CommonModule,
-NgtUniversalModule,
- 
-    
+  imports: [
+    CommonModule,
+    NgtUniversalModule,
+
     RouterModule,
     NgbModule.forRoot(),
     AppRoutingModule
