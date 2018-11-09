@@ -13,7 +13,7 @@ export class NavbarComponent implements OnInit {
 
     @HostListener("window:scroll", [])
     onWindowScroll() {
-        if (window.scrollY > 380) {
+        if (window.scrollY > 100) {
             this.transparent = false;
         }
         else {
