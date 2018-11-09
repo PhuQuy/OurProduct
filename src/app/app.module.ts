@@ -14,6 +14,8 @@ import { HomeComponent } from './routes/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SignUpComponent } from './routes/sign-up/sign-up.component';
 import { LogInComponent } from './routes/log-in/log-in.component';
+import { TemplatesComponent } from './components/templates/templates.component';
+import { NewTemplatesComponent } from './components/templates/new-templates/new-templates.component';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { LogInComponent } from './routes/log-in/log-in.component';
     HomeComponent,
     FooterComponent,
     SignUpComponent,
-    LogInComponent
+    LogInComponent,
+    TemplatesComponent,
+    NewTemplatesComponent
   ],
   imports: [
     CommonModule,

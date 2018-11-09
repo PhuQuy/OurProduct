@@ -1,0 +1,41 @@
+<!-- <div  class="fluid-container row mb-2 py-2" role="tablist">
+  <div id="tab-titles" class="btn-group btn-group-justified mx-auto">
+    <div class="mx-auto">
+      <span role="tab" data-toggle="tab" href="#products" class="btn btn-pill btn-bpink">All products</span>
+      <span role="tab" data-toggle="tab" href="#wordpress" class="btn btn-pill btn-bpink">WorldPress</span>
+      <span role="tab" data-toggle="tab" href="#htmltemplates" class="btn btn-pill btn-bpink">HTML Templates</span>
+      <span role="tab" data-toggle="tab" href="#uidesign" class="btn btn-pill btn-bpink">UI Design</span>
+    </div>
+  </div>
+</div>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="products">...</div>
+    <div role="tabpanel" class="tab-pane fade" id="wordpress">bbb</div>
+    <div role="tabpanel" class="tab-pane fade" id="htmltemplates">ccc</div>
+    <div role="tabpanel" class="tab-pane fade" id="uidesign">ccc</div>
+</div> -->
+<div id="template-tab">
+  <ngb-tabset [justify]="'center'">
+      <ngb-tab title="All Products">
+        <ng-template ngbTabContent>
+          <p>These tabs are displayed as pills...</p>
+        </ng-template>
+      </ngb-tab>
+      <ngb-tab title="WordPress">
+        <ng-template ngbTabContent>
+          <p>Because default values have been customized.</p>
+        </ng-template>
+      </ngb-tab>
+        <ngb-tab title="HTML Templates">
+            <ng-template ngbTabContent>
+              <p>Because default values have been customized.</p>
+            </ng-template>
+      </ngb-tab>
+      <ngb-tab title="WordPress">
+          <ng-template ngbTabContent>
+            <p>Because default values have been customized.</p>
+          </ng-template>
+        </ngb-tab>
+    </ngb-tabset>
+</div>
