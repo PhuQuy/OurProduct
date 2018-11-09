@@ -1,0 +1,78 @@
+.content {
+  padding: 10%;
+}
+
+.template-section {
+  width: 100%;
+  height: 85vh;
+
+  p {
+    color: white;
+  }
+}
+
+.templates-1 {
+  width: 90%;
+  height: 40vh;
+  background: #FA4673;
+  a {
+      color: #FA4673;
+  }
+}
+
+.templates-2 {
+  width: 90%;
+  height: 40vh;
+  background: #1F8DEE;
+  a {
+color: #1F8DEE
+  }
+}
+
+.templates-3 {
+  width: 90%;
+  height: 40vh;
+  background: #0FBCCA;
+  a { 
+      color: #0FBCCA
+  }
+}
+
+.templates-4 {
+  width: 90%;
+  height: 40vh;
+  background: #5457C2;
+  a {
+      color: #5457C2
+  }
+}
+
+.icon-awesome {
+  font-size: 40px;
+  color: lavender;
+  opacity: .7;
+}
+
+.text-op {
+  font-size: 12px;
+  text-align: center;
+}
+
+.text-config {
+    font-size: 16px;
+}
+
+.t-button {
+
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  padding: 0px 35px;
+  background: white;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 35px;
+  font-weight: bold;
+}

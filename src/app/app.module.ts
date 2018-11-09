@@ -16,6 +16,7 @@ import { SignUpComponent } from './routes/sign-up/sign-up.component';
 import { LogInComponent } from './routes/log-in/log-in.component';
 import { TemplatesComponent } from './components/templates/templates.component';
 import { NewTemplatesComponent } from './components/templates/new-templates/new-templates.component';
+import { TechnologyComponent } from './components/technology/technology.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { NewTemplatesComponent } from './components/templates/new-templates/new-
     SignUpComponent,
     LogInComponent,
     TemplatesComponent,
-    NewTemplatesComponent
+    NewTemplatesComponent,
+    TechnologyComponent
   ],
   imports: [
     CommonModule,
