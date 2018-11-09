@@ -15,7 +15,6 @@ export class AppComponent {
   }
 
   getPage(outlet) {
-
     return "main animated " + outlet.activatedRouteData['animation'] || 'bounceInUp';
   }
 
