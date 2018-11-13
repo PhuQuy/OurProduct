@@ -1,13 +1,34 @@
 .content {
-  padding: 10%;
+  padding-top: 10%;
 }
+
 
 .template-section {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
 
   p {
     color: white;
+  }
+}
+
+.template-section-p {
+  width: 120%;
+  height: 85vh;
+
+  .card {
+    box-shadow: none !important;
+  }
+
+  .tons {
+    color: blue;
+    font-size: 11px;
+    font-weight: bold;
+  }
+
+  .tons-title {
+    font-size: 20px;
+    font-weight: bold;
   }
 }
 
@@ -15,8 +36,10 @@
   width: 90%;
   height: 40vh;
   background: #FA4673;
+  padding-left: 15px;
+
   a {
-      color: #FA4673;
+    color: #FA4673;
   }
 }
 
@@ -24,8 +47,10 @@
   width: 90%;
   height: 40vh;
   background: #1F8DEE;
+  padding-left: 15px;
+
   a {
-color: #1F8DEE
+    color: #1F8DEE
   }
 }
 
@@ -33,8 +58,10 @@ color: #1F8DEE
   width: 90%;
   height: 40vh;
   background: #0FBCCA;
-  a { 
-      color: #0FBCCA
+  padding-left: 15px;
+
+  a {
+    color: #0FBCCA
   }
 }
 
@@ -42,8 +69,19 @@ color: #1F8DEE
   width: 90%;
   height: 40vh;
   background: #5457C2;
+  padding-left: 15px;
+
   a {
-      color: #5457C2
+    color: #5457C2
+  }
+}
+
+.templates-p {
+  width: 90%;
+  height: 40vh;
+
+  a {
+    color: white;
   }
 }
 
@@ -59,7 +97,7 @@ color: #1F8DEE
 }
 
 .text-config {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .t-button {
@@ -75,4 +113,34 @@ color: #1F8DEE
   border: 1px solid white;
   border-radius: 35px;
   font-weight: bold;
+}
+
+.p-button {
+
+  position: relative;
+  display: inline-block;
+  max-width: 300px;
+  padding: 10px 30px;
+  background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 35px;
+  text-transform: uppercase;
+}
+
+// CSS Moblie
+
+.mobile {
+  .card {
+    p {
+      color: white;
+    }
+  }
+.p-button {
+  span {
+    color: white;
+  }
+}
 }
