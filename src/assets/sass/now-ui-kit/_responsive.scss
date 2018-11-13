@@ -322,6 +322,27 @@
       }
     }
   }
+
+  app-technology {
+    .mobile{
+      .templates-1{
+        padding-left: 0 !important;
+      }
+      .templates-2{
+        padding-left: 0 !important;
+      }
+      .templates-3{
+        padding-left: 0 !important;
+      }
+      .templates-4{
+        padding-left: 0 !important;
+      }
+      .template-section-p {
+        height: auto;
+        padding: 10%;
+      }
+    }
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {

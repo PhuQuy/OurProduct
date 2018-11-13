@@ -258,13 +258,26 @@ a.btn-round svg {
     box-shadow: 0 0 20px 5px #888888;
     border-radius: 30px;
     margin: auto;
+
     .nav-item a {
       background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
       color: white;
       font-size: 12px;
     }
   }
+
   div.tab-pane {
     margin-top: 30px;
+  }
+}
+
+.row {
+  margin-right: 0px;
+}
+
+
+.mobile {
+  .row {
+    margin-left: 0px !important;
   }
 }
