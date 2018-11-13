@@ -1,0 +1,8 @@
+
+.btn-info {
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+    &:active {
+        background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+    }
+}

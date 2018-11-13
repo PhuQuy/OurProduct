@@ -17,25 +17,28 @@
 </div> -->
 <div id="template-tab">
   <ngb-tabset [justify]="'center'">
-      <ngb-tab title="All Products">
-        <ng-template ngbTabContent>
-          <p>These tabs are displayed as pills...</p>
-        </ng-template>
-      </ngb-tab>
-      <ngb-tab title="WordPress">
-        <ng-template ngbTabContent>
-          <p>Because default values have been customized.</p>
-        </ng-template>
-      </ngb-tab>
-        <ngb-tab title="HTML Templates">
-            <ng-template ngbTabContent>
-              <p>Because default values have been customized.</p>
-            </ng-template>
-      </ngb-tab>
-      <ngb-tab title="WordPress">
-          <ng-template ngbTabContent>
-            <p>Because default values have been customized.</p>
-          </ng-template>
-        </ngb-tab>
-    </ngb-tabset>
+    <ngb-tab title="All Products">
+      <ng-template ngbTabContent>
+        <div class="row">
+          <download-card class="col-4"></download-card>
+
+        </div>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="WordPress">
+      <ng-template ngbTabContent>
+        <p>Because default values have been customized.</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="HTML Templates">
+      <ng-template ngbTabContent>
+        <p>Because default values have been customized.</p>
+      </ng-template>
+    </ngb-tab>
+    <ngb-tab title="WordPress">
+      <ng-template ngbTabContent>
+        <p>Because default values have been customized.</p>
+      </ng-template>
+    </ngb-tab>
+  </ngb-tabset>
 </div>

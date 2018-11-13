@@ -17,6 +17,7 @@ import { LogInComponent } from './routes/log-in/log-in.component';
 import { TemplatesComponent } from './components/templates/templates.component';
 import { NewTemplatesComponent } from './components/templates/new-templates/new-templates.component';
 import { TechnologyComponent } from './components/technology/technology.component';
+import { DownloadCardComponent } from './components/model/download-card/download-card.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { TechnologyComponent } from './components/technology/technology.componen
     LogInComponent,
     TemplatesComponent,
     NewTemplatesComponent,
+    DownloadCardComponent,
     TechnologyComponent
   ],
   imports: [

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-download-card',
+  selector: 'download-card',
   templateUrl: './download-card.component.html',
   styleUrls: ['./download-card.component.scss']
 })
