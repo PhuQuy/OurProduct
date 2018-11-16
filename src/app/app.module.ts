@@ -18,6 +18,7 @@ import { TemplatesComponent } from './components/templates/templates.component';
 import { NewTemplatesComponent } from './components/templates/new-templates/new-templates.component';
 import { TechnologyComponent } from './components/technology/technology.component';
 import { DownloadCardComponent } from './components/model/download-card/download-card.component';
+import { ListingComponent } from './components/listing/listing.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { DownloadCardComponent } from './components/model/download-card/download
     TemplatesComponent,
     NewTemplatesComponent,
     DownloadCardComponent,
-    TechnologyComponent
+    TechnologyComponent,
+    ListingComponent
   ],
   imports: [
     CommonModule,

@@ -8,6 +8,8 @@ import { SeoService } from '@app/services/seo.service';
   providers: [SeoService]
 })
 export class HomeComponent implements OnInit {
+  
+  listings: any;
 
   constructor(private seoService: SeoService) { }
 
