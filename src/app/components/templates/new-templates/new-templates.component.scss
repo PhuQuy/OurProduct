@@ -1,7 +1,21 @@
-// Button
-#template-tab {
-  width:66.66666667%;
-  margin: auto;
-  padding: 15px;
-
+.btn-pill {
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+  margin-left: 0px!important;
+  margin-right: 3px;
+  &:last-child {
+    margin-right: 0px;
+  }
+  &:active {
+    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%) !important;
+  }
+}
+.btn-browse {
+  padding: 15px 40px;
+}
+.btn-group {
+  padding: 2px 18px;
+  box-shadow: 0 0 20px 5px #888888;
+  border-radius: 30px;
+  margin-left: 0px; 
 }

@@ -1,44 +1,20 @@
-<!-- <div  class="fluid-container row mb-2 py-2" role="tablist">
+<div class="w-100 row mx-0 mb-5 py-2" role="tablist">
   <div id="tab-titles" class="btn-group btn-group-justified mx-auto">
     <div class="mx-auto">
-      <span role="tab" data-toggle="tab" href="#products" class="btn btn-pill btn-bpink">All products</span>
-      <span role="tab" data-toggle="tab" href="#wordpress" class="btn btn-pill btn-bpink">WorldPress</span>
-      <span role="tab" data-toggle="tab" href="#htmltemplates" class="btn btn-pill btn-bpink">HTML Templates</span>
-      <span role="tab" data-toggle="tab" href="#uidesign" class="btn btn-pill btn-bpink">UI Design</span>
+      <span (click)="active('')" class="btn btn-pill">All products</span>
+      <span (click)="active('WorldPress')" class="btn btn-pill ">WorldPress</span>
+      <span (click)="active('HTML Template')" class="btn btn-pill">HTML Templates</span>
+      <span (click)="active('UI Design')" class="btn btn-pill">UI Design</span>
     </div>
   </div>
 </div>
 
-<div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active" id="products">...</div>
-    <div role="tabpanel" class="tab-pane fade" id="wordpress">bbb</div>
-    <div role="tabpanel" class="tab-pane fade" id="htmltemplates">ccc</div>
-    <div role="tabpanel" class="tab-pane fade" id="uidesign">ccc</div>
-</div> -->
-<div id="template-tab">
-  <ngb-tabset [justify]="'center'">
-    <ngb-tab title="All Products">
-      <ng-template ngbTabContent>
-        <div class="row">
-          <download-card class="col-4"></download-card>
-
-        </div>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="WordPress">
-      <ng-template ngbTabContent>
-        <p>Because default values have been customized.</p>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="HTML Templates">
-      <ng-template ngbTabContent>
-        <p>Because default values have been customized.</p>
-      </ng-template>
-    </ngb-tab>
-    <ngb-tab title="WordPress">
-      <ng-template ngbTabContent>
-        <p>Because default values have been customized.</p>
-      </ng-template>
-    </ngb-tab>
-  </ngb-tabset>
+<div class="container tab-content">
+  <div class="row">
+    <download-card *ngFor="let item of filterItemsOfType(active)" [downloadCard]="item"  class="col-sm-6 col-lg-4"></download-card>
+    <!-- <download-card [downloadCard]="card"></download-card> -->
+  </div>
+</div>
+<div class="w-100 text-center">
+    <div class="d-inline-block"><a href="#" class="btn btn-pill btn-browse">BROWSE FOR MORE PRODUCTS</a></div>
 </div>
