@@ -41,17 +41,27 @@
 <div class="drop-devider"></div>
 
 <div class="row listing-op">
-  <div class="title-op col-12 my-auto">
-    <p class="tons">This Wooks Hand Picked Items</p>
-    <p class="tons-title">Featured Templates of The Week</p>
-  </div>
+  <div class="col-12">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="title-op col-12 my-auto">
+            <p class="tons">This Wooks Hand Picked Items</p>
+            <p class="tons-title">Featured Templates of The Week</p>
+          </div>
+        </div>
+      </div>
 
-  <div class="col-md-3 col-sm-12 pr-0" *ngFor="let listing of listings">
-    <listing [listing]=listing></listing>
+      <div class="row">
+        <div class="col-md-3 col-sm-12 px-3 mb-2 " *ngFor="let listing of listings">
+          <listing [listing]=listing></listing>
+        </div>
+        <a class="p-button mx-auto my-auto">
+          <span>Browser Themes</span>
+        </a>
+      </div>
+    </div>
   </div>
-  <a class="p-button mx-auto my-auto">
-    <span>Browser Themes</span>
-  </a>
 </div>
 
 <div class="section section-about-us">
