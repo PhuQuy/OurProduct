@@ -40,9 +40,8 @@
 
 .templates-1 {
   width: 90%;
-  height: 40vh;
+  height: 270px;
   background: #FA4673;
-  padding-left: 15px;
 
   a {
     color: #FA4673;
@@ -51,9 +50,8 @@
 
 .templates-2 {
   width: 90%;
-  height: 40vh;
+  height: 270px;
   background: #1F8DEE;
-  padding-left: 15px;
 
   a {
     color: #1F8DEE
@@ -62,9 +60,8 @@
 
 .templates-3 {
   width: 90%;
-  height: 40vh;
+  height: 270px;
   background: #0FBCCA;
-  padding-left: 15px;
 
   a {
     color: #0FBCCA
@@ -73,9 +70,8 @@
 
 .templates-4 {
   width: 90%;
-  height: 40vh;
+  height: 270px;
   background: #5457C2;
-  padding-left: 15px;
 
   a {
     color: #5457C2
@@ -84,7 +80,7 @@
 
 .templates-p {
   width: 90%;
-  height: 40vh;
+  height: 270px;
 
   a {
     color: white;
@@ -144,9 +140,10 @@
       color: white;
     }
   }
-.p-button {
-  span {
-    color: white;
+
+  .p-button {
+    span {
+      color: white;
+    }
   }
-}
 }
