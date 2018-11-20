@@ -115,10 +115,6 @@
 }
 
 @media (max-width: 767px) {
-  .col-sm-6 {
-    padding-left: 80px;
-  }
-
   #inner {
     position: static;
     right: 0;
@@ -137,10 +133,5 @@
   .list-group {
     width: 50%;
     margin: auto;
-    padding-left: 40px;
-  }
-
-  .col-sm-6 {
-    padding: 0;
   }
 }
