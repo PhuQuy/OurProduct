@@ -19,6 +19,7 @@ import { NewTemplatesComponent } from './components/templates/new-templates/new-
 import { TechnologyComponent } from './components/technology/technology.component';
 import { DownloadCardComponent } from './components/model/download-card/download-card.component';
 import { ListingComponent } from './components/listing/listing.component';
+import { MattersComponent } from './components/matters/matters.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ListingComponent } from './components/listing/listing.component';
     NewTemplatesComponent,
     DownloadCardComponent,
     TechnologyComponent,
-    ListingComponent
+    ListingComponent,
+    MattersComponent
   ],
   imports: [
     CommonModule,
