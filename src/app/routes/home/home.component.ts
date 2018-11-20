@@ -11,7 +11,9 @@ export class HomeComponent implements OnInit {
   
   listings: any;
 
-  constructor(private seoService: SeoService) { }
+  constructor(private seoService: SeoService) { 
+    this.listings = [1, 2, 3, 4, 5, 6, 7, 8];
+  }
 
   ngOnInit() {
     this.seoService.generateTags({
