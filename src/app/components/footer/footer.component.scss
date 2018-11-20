@@ -1,6 +1,7 @@
 //  Footer 
 .footer-custome {
-  background-image: linear-gradient(270deg, #8982f6 0%, #9a9edc 50%, #8982f6 100%);  font-family: 'Montserrat';
+  background: linear-gradient(to right, #82A2F9 0%, #C499F5 100%);
+  font-family: 'Montserrat';
   padding: 0;
 
   .btn {
@@ -56,119 +57,12 @@
 //  Group and Link
 .main-footer {
   position: relative;
-  display: grid;
-  grid-template-columns: 150px auto 150px;
-  
-}
-.round {
-  height: 100px;
-  width: 100px;
-  background: #ada8fa;
-}
-
-.left_top {
-  border-radius: 0% 100% 100% 0% / 30% 100% 0% 70%;
-}
-
-.left_bot {
-  border-radius: 0% 100% 100% 0% / 30% 0% 100% 70%;
-}
-
-.right_top {
-  border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
-}
-
-.right_bot {
-  border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
-}
-
-.round_border {
-  height: 130px;
-  width: 130px;
-  border: 1px solid #ada8fa;
-  display: flex;
-  position: relative;
-}
-
-.f_left_top {
-  border-radius: 0% 100% 100% 0% / 30% 100% 0% 70%;
-  align-items: flex-end;
-  border-bottom: none;
-}
-
-.f_left_bot {
-  border-radius: 0% 100% 100% 0% / 30% 0% 100% 70%;
-  align-items: flex-start;
-  border-top: none;
-}
-
-.f_right_top {
-  border-radius: 100% 0% 0% 100% / 100% 0% 100% 0%;
-  align-items: flex-end;
-  justify-content: flex-end;
-  border-bottom: none;
-}
-
-.f_right_bot {
-  border-radius: 100% 0% 0% 100% / 0% 0% 100% 100%;
-  align-items: flex-start;
-  justify-content: flex-end;
-  border-top: none;
-}
-
-.foot_left {
-  display: flex;
-  align-items: center;
-}
-
-.foot_right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.round_chid_left {
-  width: 20px;
-  height: 20px;
-  position: absolute;
-  border-radius: 50%;
-  background-color: #9399f5;
-  background-image: linear-gradient(132deg, #9399f5 0%, #bb96f5 100%);
-  z-index: 2;
-}
-
-.rtop {
-  top: -5px;
-  right: 15px;
-}
-
-.rcenter {
-  top: calc(50% - 10px);
-  left: -9px;
-}
-
-.rbottom {
-  bottom: -5px;
-  right: 15px;
-}
-
-.ltop {
-  top: -5px;
-  left: 15px;
-}
-
-.lcenter {
-  top: calc(50% - 10px);
-  right: -9px;
-}
-
-.lbottom {
-  bottom: -5px;
-  left: 15px;
-}
-
-.ct {
-  position: relative;
+  &::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: red;
+  }
 }
 #links {
   padding-top: 145px;
@@ -239,10 +133,5 @@
   .list-group {
     width: 50%;
     margin: auto;
-    padding-left: 40px;
-  }
-
-  .col-sm-6 {
-    padding: 0;
   }
 }
