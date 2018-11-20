@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="355" height="900" viewBox="0 0 355 900">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                           
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ada8fa;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="399" y1="518" x2="263" y2="382" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#949ffb"/>
+      <stop offset="1" stop-color="#ab99ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="328" y1="205" x2="290" y2="167" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="328" y1="732" x2="290" y2="694" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="139" y1="469" x2="101" y2="431" xlink:href="#linear-gradient"/>
+  </defs>
+  <circle id="vong_ngoai" data-name="vong ngoai" class="cls-1" cx="398.5" cy="450.5" r="225.5"/>
+  <circle id="vong_ngoai_copy" data-name="vong ngoai copy" class="cls-1" cx="398.5" cy="451.5" r="278.5"/>
+  <circle id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" cx="331" cy="450" r="68"/>
+  <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-3" cx="309" cy="186" r="19"/>
+  <circle id="Ellipse_1_copy_4" data-name="Ellipse 1 copy 4" class="cls-4" cx="309" cy="713" r="19"/>
+  <circle id="Ellipse_1_copy_5" data-name="Ellipse 1 copy 5" class="cls-5" cx="120" cy="450" r="19"/>
+</svg>

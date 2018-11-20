@@ -10,7 +10,7 @@
           from
           anywhere else!</h3>
 
-        <div >
+        <div>
           <a class="pt-button light">
             <span>Get Started</span>
           </a>
@@ -38,6 +38,21 @@
 </div>
 <app-technology></app-technology>
 
+<div class="drop-devider"></div>
+
+<div class="row listing-op">
+  <div class="title-op col-12 my-auto">
+    <p class="tons">This Wooks Hand Picked Items</p>
+    <p class="tons-title">Featured Templates of The Week</p>
+  </div>
+
+  <div class="col-md-3 col-sm-12 pr-0" *ngFor="let listing of listings">
+    <listing [listing]=listing></listing>
+  </div>
+  <a class="p-button mx-auto my-auto">
+    <span>Browser Themes</span>
+  </a>
+</div>
 
 <div class="section section-about-us">
   <div class="container">

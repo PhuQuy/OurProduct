@@ -1,5 +1,10 @@
 .content {
   padding-top: 10%;
+  background-image: url("assets/images/t-bg.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 20%;
+  // background-color: red;
 }
 
 
@@ -15,6 +20,7 @@
 .template-section-p {
   width: 120%;
   height: 85vh;
+  background: transparent;
 
   .card {
     box-shadow: none !important;

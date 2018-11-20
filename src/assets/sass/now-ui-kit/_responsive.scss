@@ -324,6 +324,9 @@
   }
 
   app-technology {
+    .content {
+      background-size: 100% !important;
+    }
     .mobile{
       .templates-1{
         padding-left: 0 !important;
@@ -340,6 +343,27 @@
       .template-section-p {
         height: auto;
         padding: 10%;
+      }
+    }
+  }
+
+  .row {
+    margin-right: 0px !important;
+  }
+
+  app-home {
+    .listing-op {
+      height: unset !important;
+      padding-left: 15px !important;
+      padding-right: 0px !important;
+
+      div {
+        margin-bottom: 10px;
+      }
+
+      .title-op {
+        margin-left: 10px;
+        height: 20vh !important;
       }
     }
   }
