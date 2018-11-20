@@ -130,7 +130,7 @@
 //   margin-left: 50%;
 // /Loop
 .listing-op {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   padding-right: 100px;
   padding-left: 115px;
@@ -138,10 +138,6 @@
   background-position-y: bottom;
   background-size: 50%;
   background-repeat: no-repeat;
-
-  div {
-    height: 200px;
-  }
 
   .title-op {
     height: 15vh;
