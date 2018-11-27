@@ -1,0 +1,23 @@
+.talking-form {
+  height: 600px;
+  background-image: url("assets/images/mail.svg");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position-x: right;
+
+  .card {
+    width: 50%;
+    box-shadow: none;
+  }
+
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #E3E3E3;
+    border-radius: 0%;
+  }
+
+  button {
+    border-radius: 30px;
+    background: linear-gradient(to right, #8DEEEE 0%, #82A2F9 100%);
+  }
+}

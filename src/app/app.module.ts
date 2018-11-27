@@ -21,6 +21,9 @@ import { DownloadCardComponent } from './components/model/download-card/download
 import { ListingComponent } from './components/listing/listing.component';
 import { MattersComponent } from './components/matters/matters.component';
 import { TipsComponent } from './components/tips/tips.component';
+import { ContactComponent } from './routes/contact/contact.component';
+import { TalkingComponent } from './components/talking/talking.component';
+import { SupportComponent } from './components/support/support.component';
 
 
 @NgModule({
@@ -37,7 +40,10 @@ import { TipsComponent } from './components/tips/tips.component';
     TechnologyComponent,
     ListingComponent,
     MattersComponent,
-    TipsComponent
+    TipsComponent,
+    ContactComponent,
+    TalkingComponent,
+    SupportComponent
   ],
   imports: [
     CommonModule,

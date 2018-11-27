@@ -5,10 +5,12 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './routes/home/home.component';
 import { LogInComponent } from './routes/log-in/log-in.component';
+import { ContactComponent } from '@app/routes/contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'login', component: LogInComponent }
+  { path: 'login', component: LogInComponent },
+  { path: 'contact', component: ContactComponent}
 ];
 
 @NgModule({
