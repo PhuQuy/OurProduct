@@ -1,5 +1,11 @@
 .support {
 
+  background-image: url("assets/images/sat.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 20%;
+  background-color: #f2f7fb;
+
   .card-red {
     .card {
       background: #FA4673;
@@ -29,7 +35,7 @@
   }
 
   .row-width {
-      width: 75%;
+    width: 75%;
   }
 
   .title-op {
