@@ -1,0 +1,72 @@
+.video-box {
+  background-image: url("assets/images/office.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.play-btn {
+  cursor: pointer;
+  background: #fff;
+  color: #82A2F9;
+  font-size: 40px;
+  width: 90PX;
+  height: 90PX;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 2;
+
+  i {
+    line-height: 90PX;
+    margin-left: 10px;
+  }
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    border: 30px solid #fff;
+    border-radius: 50%;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    z-index: 1;
+    animation: animate 1.5s linear infinite;
+    transition-duration: 0.5s;
+
+    @keyframes animate {
+      0% {
+        transform: scale(0.8);
+      }
+
+      25% {
+        opacity: 0.1;
+      }
+
+      50% {
+        opacity: 0.2;
+      }
+
+      75% {
+        opacity: 0.3;
+      }
+
+      100% {
+        opacity: 0.4;
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.bg-box {
+  background: linear-gradient(to right, #82A2F9 0%, #C499F5 100%);
+  opacity: 0.9;
+}

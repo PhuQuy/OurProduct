@@ -24,6 +24,9 @@ import { TipsComponent } from './components/tips/tips.component';
 import { ContactComponent } from './routes/contact/contact.component';
 import { TalkingComponent } from './components/talking/talking.component';
 import { SupportComponent } from './components/support/support.component';
+import { AboutComponent } from './routes/about/about.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { VideoBoxComponent } from './components/video-box/video-box.component';
 
 
 @NgModule({
@@ -43,7 +46,10 @@ import { SupportComponent } from './components/support/support.component';
     TipsComponent,
     ContactComponent,
     TalkingComponent,
-    SupportComponent
+    SupportComponent,
+    AboutComponent,
+    IntroComponent,
+    VideoBoxComponent
   ],
   imports: [
     CommonModule,

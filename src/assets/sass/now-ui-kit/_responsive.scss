@@ -411,6 +411,15 @@
       }
     }
   }
+
+  app-about {
+    .container {
+      padding-right: 0px !important;
+    }
+    .container-1 {
+      padding-left: 50px;
+    }
+  }
 }
 
 @media screen and (min-width: 991px) and (max-width: 1200px) {
