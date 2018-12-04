@@ -19,6 +19,14 @@ import { NewTemplatesComponent } from './components/templates/new-templates/new-
 import { TechnologyComponent } from './components/technology/technology.component';
 import { DownloadCardComponent } from './components/model/download-card/download-card.component';
 import { ListingComponent } from './components/listing/listing.component';
+import { MattersComponent } from './components/matters/matters.component';
+import { TipsComponent } from './components/tips/tips.component';
+import { ContactComponent } from './routes/contact/contact.component';
+import { TalkingComponent } from './components/talking/talking.component';
+import { SupportComponent } from './components/support/support.component';
+import { AboutComponent } from './routes/about/about.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { VideoBoxComponent } from './components/video-box/video-box.component';
 
 
 @NgModule({
@@ -33,7 +41,15 @@ import { ListingComponent } from './components/listing/listing.component';
     NewTemplatesComponent,
     DownloadCardComponent,
     TechnologyComponent,
-    ListingComponent
+    ListingComponent,
+    MattersComponent,
+    TipsComponent,
+    ContactComponent,
+    TalkingComponent,
+    SupportComponent,
+    AboutComponent,
+    IntroComponent,
+    VideoBoxComponent
   ],
   imports: [
     CommonModule,

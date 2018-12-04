@@ -1,5 +1,6 @@
 .content {
   padding-top: 10%;
+  background-color: #f2f7fb;
   background-image: url("assets/images/t-bg.svg");
   background-repeat: no-repeat;
   background-position: right;
@@ -103,7 +104,7 @@
 }
 
 .t-button {
-
+  cursor: pointer;
   position: relative;
   display: inline-block;
   max-width: 300px;
@@ -118,7 +119,7 @@
 }
 
 .p-button {
-
+  cursor: pointer;
   position: relative;
   display: inline-block;
   max-width: 300px;

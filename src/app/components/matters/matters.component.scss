@@ -1,0 +1,85 @@
+.matters-op {
+  .row {
+    width: 100%;
+    height: 100%;
+  }
+
+  i {
+    font-size: 40px;
+  }
+
+  span {
+    font-size: 40px;
+    font-weight: 100;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  h5 {
+    font-weight: bold;
+    color: #81a1f8;
+  }
+
+  i,
+  p,
+  span {
+    color: #656565;
+  }
+
+  .matter-2 {
+    background: white;
+    height: 140px;
+    cursor: pointer;
+
+    &:hover {
+      background: #81a1f8;
+      transition: .7s ease;
+
+      i,
+      p,
+      span,
+      h5 {
+        color: white;
+      }
+    }
+  }
+}
+
+.templates-p {
+    background: transparent;
+
+   .tons-content {
+       font-weight: 600;
+       color: #656565;
+   }
+  
+    .tons {
+      color: blue;
+      font-size: 11px;
+      font-weight: bold;
+    }
+  
+    .tons-title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .p-button {
+        cursor: pointer;
+        color: white;
+        position: relative;
+        display: inline-block;
+        max-width: 300px;
+        padding: 10px 30px;
+        background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+        font-size: 13px;
+        text-align: center;
+        text-decoration: none;
+        border: 1px solid white;
+        border-radius: 35px;
+        text-transform: uppercase;
+      }
+  }
+
