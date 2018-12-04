@@ -9,11 +9,7 @@ $colors: (
 @function color($type) {
   @return map-get($colors, $type);
 }
-.intro {
-  a {
-    color:
-  }
-}
+
 .btn-pill {
   border-radius: 30px;
   background: color(primary);
