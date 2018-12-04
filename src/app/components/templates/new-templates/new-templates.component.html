@@ -1,10 +1,18 @@
+<div class="intro container text-center">
+  <div>
+    <a href="#">All Released</a>
+    <h3>Newest Themes Templates & Design</h3>
+  </div>
+</div>
 <div class="w-100 row mx-0 mb-5 py-2" role="tablist">
   <div id="tab-titles" class="btn-group btn-group-justified mx-auto">
     <div class="mx-auto">
-      <span (click)="active('')" class="btn btn-pill">All products</span>
-      <span (click)="active('WorldPress')" class="btn btn-pill ">WorldPress</span>
-      <span (click)="active('HTML Template')" class="btn btn-pill">HTML Templates</span>
-      <span (click)="active('UI Design')" class="btn btn-pill">UI Design</span>
+      <div class="row justify-content-around">
+        <span (click)="onToggle($event, '')" class="btn btn-pill" [class.btn-active]="active === ''">All products</span>
+        <span (click)="onToggle($event, 'WorldPress')" class="btn btn-pill" [class.btn-active]="active === 'WorldPress'">WorldPress</span>
+        <span (click)="onToggle($event, 'HTML Template')" class="btn btn-pill" [class.btn-active]="active === 'HTML Template'">HTML Templates</span>
+        <span (click)="onToggle($event, 'UI Design')" class="btn btn-pill" [class.btn-active]="active === 'UI Design'">UI Design</span>
+      </div>
     </div>
   </div>
 </div>
@@ -16,5 +24,5 @@
   </div>
 </div>
 <div class="w-100 text-center">
-    <div class="d-inline-block"><a href="#" class="btn btn-pill btn-browse">BROWSE FOR MORE PRODUCTS</a></div>
+    <div class="d-inline-block"><a href="#" class="btn btn-pill btn-browse btn-active">BROWSE FOR MORE PRODUCTS</a></div>
 </div>

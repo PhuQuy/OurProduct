@@ -1,14 +1,37 @@
+$colors: (
+  light-font: white,
+  dark-font: black,
+  primary: white,
+  active: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%),
+  link: skyblue
+); 
+
+@function color($type) {
+  @return map-get($colors, $type);
+}
+.intro {
+  a {
+    color:
+  }
+}
 .btn-pill {
   border-radius: 30px;
-  background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+  background: color(primary);
   margin-left: 0px!important;
   margin-right: 3px;
+  border: 1px solid #6f6f6f9c;
+  color: color(dark-font);
   &:last-child {
     margin-right: 0px;
   }
-  &:active {
-    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%) !important;
+  &:active, &:focus {
+    background: color(active)!important;
   }
+}
+.btn-active {
+  background: color(active)!important;
+  color: color(light-font);
+  border: none;
 }
 .btn-browse {
   padding: 15px 40px;

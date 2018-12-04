@@ -11,6 +11,7 @@ export class NewTemplatesComponent implements OnInit {
   public cards: Array<DownloadCard>
   public card: DownloadCard
   public active: string
+  public clicked: boolean
   ngOnInit() {
     this.cards = [
       new DownloadCard('Card Title', 'HTML Template', 3, 300, "https://dummyimage.com/286x180/8f078f/0011ff.png"),
@@ -21,9 +22,13 @@ export class NewTemplatesComponent implements OnInit {
     this.active = '';
     console.log(this.cards)
   }
-  filterItemsOfType(type) {
-    if (type === '') return this.cards
-    return this.cards.filter(x => x.type === type);
+  onToggle(card, type: string) {
+    this.active = type;
+    // console.log(type);
+  }
+  filterItemsOfType() {
+    if (this.active === '') return this.cards
+    return this.cards.filter(x => x.type === this.active);
     // return this.cards
   }
 }

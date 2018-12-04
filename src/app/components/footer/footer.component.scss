@@ -23,9 +23,8 @@
     padding: 35px;
     height: 100%;
   }
-
   p {
-    height: 40px;
+    margin: auto;
   }
 }
 
@@ -93,7 +92,13 @@
     text-transform: none;
   }
 }
-
+// Copy 
+#copy {
+  .row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
 @media (min-width:768px) {
   #inner {
     top: 50%;
@@ -123,9 +128,10 @@
       padding: 0;
     }
   }
-
-  #middle div p {
-    text-align: center
+  #copy {
+    .row {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
