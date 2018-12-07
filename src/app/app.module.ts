@@ -27,6 +27,9 @@ import { SupportComponent } from './components/support/support.component';
 import { AboutComponent } from './routes/about/about.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { VideoBoxComponent } from './components/video-box/video-box.component';
+import { CategoryComponent } from './routes/category/category.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { ItemComponent } from './components/_model/cards/item/item.component';
 
 
 @NgModule({
@@ -49,7 +52,10 @@ import { VideoBoxComponent } from './components/video-box/video-box.component';
     SupportComponent,
     AboutComponent,
     IntroComponent,
-    VideoBoxComponent
+    VideoBoxComponent,
+    CategoryComponent,
+    GalleryComponent,
+    ItemComponent
   ],
   imports: [
     CommonModule,

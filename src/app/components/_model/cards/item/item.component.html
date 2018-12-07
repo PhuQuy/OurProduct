@@ -1,0 +1,19 @@
+
+<div class="card card-item">
+  <img class="card-img-top" [src]="item.imgUrl" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title w-10 m-0">{{item.title}}</h5>
+    <div class="row pl-3 pr-3">
+      <span class="col-auto pt-2">
+        <ngb-rating max="5" [rate]="item.rate"></ngb-rating>
+        ( {{item.votes}} 15 votes )
+      </span>
+      <span class="col text-right" style="text-align: right">
+        <div class="d-inline-block ">
+          <a href="#" class="download-link"><i class=" fa fa-download fa-border"></i></a>
+        </div>
+      </span>
+    </div>
+
+  </div>
+</div>
