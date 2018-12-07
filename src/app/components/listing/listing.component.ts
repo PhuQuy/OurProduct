@@ -9,7 +9,11 @@ export class ListingComponent implements OnInit {
 
   @Input() listing: any;
 
-  constructor() { }
+  constructor() {
+    this.listing = {
+      name: "Catos"
+    }
+   }
 
   ngOnInit() {
   }

@@ -1,0 +1,43 @@
+.btn-info {
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+  
+    &:active {
+      background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%) !important;
+    }
+  }
+  
+  ngb-rating {
+    &:focus {
+      outline: none;
+    }
+  
+    font-size: 20px;
+    color: gold;
+  }
+  
+  .card-body {
+    .row {
+      &>span {
+        text-align: right;
+        padding: 0px;
+      }
+    }
+    .btn-info {
+        margin-left: 11px;
+    }
+  
+  }
+  .fa-border {
+      font-size: 26px;
+      border-radius: 50%;
+  }
+  .download-link {
+    color: skyblue;
+  }
+
+  .card-item {
+    .card-body {
+      min-height: 120px;
+    }
+  }

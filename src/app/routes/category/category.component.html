@@ -1,0 +1,58 @@
+<div class="row">
+  <div class="category-head w-100">
+    <div class="container w-100 h-100">
+      <div class="row h-100">
+        <div class="col-lg-12 my-auto">
+          <div class="row">
+            <div class="col-lg-12 mt-4 p-0">
+              <h3 class="text-center font-weight-bold mb-0 mt-4">WordPress Themes Gallery</h3>
+            </div>
+            <div class="col-lg-12 p-0">
+              <p class="text-center title">This Wooks Hand Picked Items or Featured Templates of The Week</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="drop-devider"></div>
+
+<div class="container container-1 d-none d-sm-block">
+  <div class="row p-4">
+    <div class="click-op mx-auto">
+      <a (click)="onToggle($event, '')" [class.active]="active === ''" class="title col-lg-1 p-0">All Produce <i>(35)</i> </a>
+      <a (click)="onToggle($event, 'blog')" [class.active]="active === 'blog'" class="title col-lg-1 p-0 ml-4">Blog <i>(7)</i></a>
+      <a (click)="onToggle($event, 'business')" [class.active]="active === 'business'" class="title col-lg-1 p-0 ml-4">Business <i>(2)</i></a>
+      <a (click)="onToggle($event, 'ecommerce')" [class.active]="active === 'ecommerce'" class="title col-lg-1 p-0 ml-4">Ecommerce <i>(4)</i></a>
+      <a (click)="onToggle($event, 'landing')" [class.active]="active === 'landing'" class="title col-lg-1 p-0 ml-4">Landing Page <i>(5)</i></a>
+      <a (click)="onToggle($event, 'multipurpose')" [class.active]="active === 'multipurpose'" class="title col-lg-1 p-0 ml-4">Multipurpose <i>(12)</i></a>
+      <a (click)="onToggle($event, 'personal')" [class.active]="active === 'personal'" class="title col-lg-1 p-0 ml-4">Personal <i>(2)</i></a>
+      <a (click)="onToggle($event, 'portfolio')" [class.active]="active === 'portfolio'" class="title col-lg-1 p-0 ml-4">Portfolio <i>(1)</i></a>
+    </div>
+  </div>
+</div>
+
+<div class="nav-scroller py-1 mb-2 container container-1 d-block d-sm-none">
+  <nav class="nav d-flex justify-content-between">
+    <a (click)="onToggle($event, '')" [class.active]="active === ''" class="title col-lg-1 p-0">All Produce</a>
+    <a (click)="onToggle($event, 'blog')" [class.active]="active === 'blog'" class="title col-lg-1 p-0 ml-4">Blog</a>
+    <a (click)="onToggle($event, 'business')" [class.active]="active === 'business'" class="title col-lg-1 p-0 ml-4">Business </a>
+    <a (click)="onToggle($event, 'ecommerce')" [class.active]="active === 'ecommerce'" class="title col-lg-1 p-0 ml-4">Ecommerce</a>
+    <a (click)="onToggle($event, 'landing')" [class.active]="active === 'landing'" class="title col-lg-1 p-0 ml-4">Landing Page</a>
+    <a (click)="onToggle($event, 'multipurpose')" [class.active]="active === 'multipurpose'" class="title col-lg-1 p-0 ml-4">Multipurpose</a>
+    <a (click)="onToggle($event, 'personal')" [class.active]="active === 'personal'" class="title col-lg-1 p-0 ml-4">Personal</a>
+    <a (click)="onToggle($event, 'portfolio')" [class.active]="active === 'portfolio'" class="title col-lg-1 p-0 ml-4">Portfolio</a>
+  </nav>
+</div>
+
+<div class="container tab-content container-1">
+  <div class="row">
+    <app-item *ngFor="let item of filterItemsOfType(active)" [item]="item" class="col-sm-6 col-lg-6"></app-item>
+    <!-- <download-card [downloadCard]="card"></download-card> -->
+  </div>
+</div>
+
+
+<div class="drop-devider"></div>

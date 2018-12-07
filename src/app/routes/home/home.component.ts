@@ -8,19 +8,44 @@ import { SeoService } from '@app/services/seo.service';
   providers: [SeoService]
 })
 export class HomeComponent implements OnInit {
-  
+
   listings: any;
 
-  constructor(private seoService: SeoService) { 
-    this.listings = [1, 2, 3, 4, 5, 6, 7, 8];
+  constructor(private seoService: SeoService) {
+    this.listings = [
+      {
+        name: "Catos"
+      },
+      {
+        name: "Premium"
+      },
+      {
+        name: "Leviosa"
+      },
+      {
+        name: "Kedavra"
+      },
+      {
+        name: "Illumina"
+      },
+      {
+        name: "Alomohara"
+      },
+      {
+        name: "Experemus"
+      },
+      {
+        name: "Rossuoni"
+      }      
+    ];
   }
 
   ngOnInit() {
     this.seoService.generateTags({
-        title: 'T - Rex',
-        description: 'Tyrannosaurus Rex',
-        slug: 'feeds',
-        keywords: 'Tyrannosaurus Rex'
+      title: 'T - Rex',
+      description: 'Tyrannosaurus Rex',
+      slug: 'feeds',
+      keywords: 'Tyrannosaurus Rex'
     });
   }
 
