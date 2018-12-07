@@ -4,14 +4,30 @@
     <h3>Newest Themes Templates & Design</h3>
   </div>
 </div>
-<div class="w-100 row mx-0 mb-5 py-2" role="tablist">
-  <div id="tab-titles" class="btn-group btn-group-justified mx-auto">
+<div class="w-100 row mx-0 mb-5 py-2">
+  <div id="tab-titles" class="btn-group mx-auto">
     <div class="mx-auto">
-      <div class="row justify-content-around">
-        <span (click)="onToggle($event, '')" class="btn btn-pill" [class.btn-active]="active === ''">All products</span>
+        <!-- <table class="d-lg-none text-center" style="table-layout: fixed;">
+            <tr>
+              <td><span (click)="onToggle($event, '')" class="btn btn-pill" [class.btn-active]="active === ''">All
+                  products</span></td>
+              <td><span (click)="onToggle($event, 'WorldPress')" class="btn btn-pill" [class.btn-active]="active === 'WorldPress'">WorldPress</span></td>
+            </tr>
+            <tr>
+              <td><span (click)="onToggle($event, 'HTML Template')" class="btn btn-pill" [class.btn-active]="active === 'HTML Template'">HTML
+                  Templates</span></td>
+              <td> <span (click)="onToggle($event, 'UI Design')" class="btn btn-pill" [class.btn-active]="active === 'UI Design'">UI
+                  Design</span></td>
+            </tr>
+          </table> -->
+      <div class="row justify-content-md-around justify-content-sm-center">
+        
+        <span (click)="onToggle($event, '')" class="btn btn-pill" [class.btn-active]="active === ''">All</span>
         <span (click)="onToggle($event, 'WorldPress')" class="btn btn-pill" [class.btn-active]="active === 'WorldPress'">WorldPress</span>
-        <span (click)="onToggle($event, 'HTML Template')" class="btn btn-pill" [class.btn-active]="active === 'HTML Template'">HTML Templates</span>
-        <span (click)="onToggle($event, 'UI Design')" class="btn btn-pill" [class.btn-active]="active === 'UI Design'">UI Design</span>
+        <span (click)="onToggle($event, 'HTML Template')" class="btn btn-pill" [class.btn-active]="active === 'HTML Template'">HTML
+          Templates</span>
+        <span (click)="onToggle($event, 'UI Design')" class="btn btn-pill" [class.btn-active]="active === 'UI Design'">UI
+          Design</span>
       </div>
     </div>
   </div>
@@ -19,10 +35,10 @@
 
 <div class="container tab-content">
   <div class="row">
-    <download-card *ngFor="let item of filterItemsOfType(active)" [downloadCard]="item"  class="col-sm-6 col-lg-4"></download-card>
+    <download-card *ngFor="let item of filterItemsOfType(active)" [downloadCard]="item" class="col-sm-6 col-lg-4"></download-card>
     <!-- <download-card [downloadCard]="card"></download-card> -->
   </div>
 </div>
 <div class="w-100 text-center">
-    <div class="d-inline-block"><a href="#" class="btn btn-pill btn-browse btn-active">BROWSE FOR MORE PRODUCTS</a></div>
+  <div class="d-inline-block"><a href="#" class="btn btn-pill btn-browse btn-active">BROWSE FOR MORE PRODUCTS</a></div>
 </div>
