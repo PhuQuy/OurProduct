@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NguCarouselModule } from '@ngu/carousel';
 
 
 
@@ -30,6 +31,7 @@ import { VideoBoxComponent } from './components/video-box/video-box.component';
 import { CategoryComponent } from './routes/category/category.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { ItemComponent } from './components/_model/cards/item/item.component';
+import { ItemDetailComponent } from './components/_model/cards/item/item-detail/item-detail.component';
 
 
 @NgModule({
@@ -55,12 +57,13 @@ import { ItemComponent } from './components/_model/cards/item/item.component';
     VideoBoxComponent,
     CategoryComponent,
     GalleryComponent,
-    ItemComponent
+    ItemComponent,
+    ItemDetailComponent,
   ],
   imports: [
     CommonModule,
     NgtUniversalModule,
-
+    NguCarouselModule,
     RouterModule,
     NgbModule.forRoot(),
     AppRoutingModule

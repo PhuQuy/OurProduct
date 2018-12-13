@@ -1,43 +1,76 @@
 .btn-info {
-    border-radius: 30px;
-    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
-  
-    &:active {
-      background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%) !important;
-    }
+  border-radius: 30px;
+  background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+
+  &:active {
+    background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%) !important;
   }
-  
-  ngb-rating {
-    &:focus {
-      outline: none;
-    }
-  
-    font-size: 20px;
-    color: gold;
-  }
-  
-  .card-body {
-    .row {
-      &>span {
-        text-align: right;
-        padding: 0px;
-      }
-    }
-    .btn-info {
-        margin-left: 11px;
-    }
-  
-  }
-  .fa-border {
-      font-size: 26px;
-      border-radius: 50%;
-  }
-  .download-link {
-    color: skyblue;
+}
+
+ngb-rating {
+  &:focus {
+    outline: none;
   }
 
-  .card-item {
-    .card-body {
-      min-height: 120px;
+  font-size: 20px;
+  color: gold;
+}
+
+.card-body {
+  .row {
+    &>span {
+      text-align: right;
+      padding: 0px;
     }
   }
+
+  .btn-info {
+    margin-left: 11px;
+  }
+
+}
+
+.fa-border {
+  font-size: 26px;
+  border-radius: 50%;
+}
+
+.download-link {
+  color: skyblue;
+}
+
+.card-item {
+  .card-body {
+    min-height: 120px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background: linear-gradient(to bottom right, #82A2F9 10%, #C499F5 90%);
+  z-index: 1;
+
+  button {
+    border-radius: 30px;
+    width: 200px;
+    color: black;
+    padding: 15px;
+  }
+
+}
+
+.card-item:hover .overlay {
+  opacity: .9;
+
+  button {
+    opacity: 1 !important;
+  }
+}

@@ -369,11 +369,12 @@
     }
   }
 
-  
+
   app-category {
     .container {
       padding-left: 55px !important;
     }
+
     .container-1 {
       padding-left: 30px !important;
     }
@@ -426,8 +427,51 @@
     .container {
       padding-right: 0px !important;
     }
+
     .container-1 {
       padding-left: 50px;
+    }
+  }
+
+  app-item-detail {
+    .body-detail {
+      .container {
+        padding-right: 0 !important;
+      }
+    }
+
+    .about-head {
+      .container {
+        padding-left: 55px !important;
+      }
+    }
+
+    .infor {
+      text-align: left;
+    }
+
+    .bg-rex {
+      .container-1 {
+        padding-left: 30px;
+      }
+
+      .m-option {
+        margin-top: 100px !important;
+      }
+
+      p {
+        display: block !important;
+      }
+    }
+
+    .relate {
+      .container {
+        padding-right: 0px !important;
+      }
+    }
+
+    .drop-devider {
+      height: 50px !important;
     }
   }
 }
