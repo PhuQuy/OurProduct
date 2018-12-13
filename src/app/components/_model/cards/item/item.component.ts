@@ -9,6 +9,7 @@ import { Item } from '@app/model/cards/item/item.module';
 export class ItemComponent implements OnInit {
   @Input() public item: Item
   constructor() { }
+  
   public imgUrl : string;
   ngOnInit() {
   }

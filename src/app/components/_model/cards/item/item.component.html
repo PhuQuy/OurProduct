@@ -1,6 +1,19 @@
-
 <div class="card card-item">
   <img class="card-img-top" [src]="item.imgUrl" alt="Card image cap">
+  <div class="overlay">
+    <div class="row ml-0 col-md-12 pt-4 h-100">
+      <div class="mx-auto my-auto">
+        <a class="mt-3">
+          <button type="button" class="btn btn-primary text-uppercase title mt-4 bg-light">live demo</button>
+        </a>
+      </div>
+      <div class="mx-auto my-auto">
+        <a class="mt-3">
+          <button type="button" [routerLink]="['/item-detail']" class="btn btn-primary text-uppercase title mt-4 bg-light">more infor</button>
+        </a>
+      </div>
+    </div>
+  </div>
   <div class="card-body">
     <h5 class="card-title w-10 m-0">{{item.title}}</h5>
     <div class="row pl-3 pr-3">
