@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DownloadCard } from '../../../model/cards/download-card/download-card.module'
+import { DownloadCard } from '../../../../model/cards/download-card/download-card.module'
 @Component({
   selector: 'download-card',
   templateUrl: './download-card.component.html',

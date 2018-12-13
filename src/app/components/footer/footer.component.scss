@@ -96,13 +96,6 @@
     text-transform: none;
   }
 }
-// Copy 
-#copy {
-  .row {
-    grid-template-columns: 1fr 1fr;
-  }
-  
-}
 @media (min-width:768px) {
   #inner {
     top: 50%;
