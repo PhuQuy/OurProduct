@@ -36,15 +36,19 @@
   input {
     border-radius: 25px 0px 0px 25px;
     cursor: text;
-
+    &:focus, &:hover, &:active {
+      background-color: #fff;
+    }
     &:focus {
       border: none;
+      
     }
 
     &::placeholder {
       opacity: 1;
       color: #111111;
     }
+
   }
 
   button {
@@ -128,11 +132,11 @@
       padding: 0;
     }
   }
-  #copy {
-    .row {
-      grid-template-columns: 1fr;
-    }
-  }
+  // #copy {
+  //   .row {
+  //     grid-template-columns: 1fr;
+  //   }
+  // }
 }
 
 @media (max-width: 575px) {
@@ -141,3 +145,10 @@
     margin: auto;
   }
 }
+@media (max-width: 989px) { 
+  .email-text {
+    margin-bottom: 15px;
+    text-align: center;
+   }
+
+ }
