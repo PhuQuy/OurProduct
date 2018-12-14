@@ -1,0 +1,158 @@
+$colors: (facebook: #365899,
+twitter: #006dbf,
+google: #d93025,
+youtube: #ff0000,
+instagram: linear-gradient(to bottom right, #8a3ab9 10%, #fbad50 90%));
+
+@function color($type) {
+  @return map-get($colors, $type);
+}
+
+.blog-detail-head {
+  height: 450px;
+  background-image: url("assets/images/blog-bg.jpg");
+  background-size: cover;
+  background-position: center;
+
+  h3,
+  h5,
+  p {
+    color: white;
+  }
+
+  .btn {
+    color: black;
+  }
+
+  button {
+    border-radius: 35px;
+  }
+
+  .mb-200 {
+    margin-bottom: 150px;
+  }
+}
+
+.blog-option {
+  a {
+    cursor: pointer;
+    color: #ffffff;
+
+    &:hover {
+      width: 0%;
+      height: 2px;
+      border-bottom: 2px solid #ffffff;
+      box-sizing: border-box;
+      transition-duration: .3s;
+    }
+  }
+
+  i {
+    color: #ffffff;
+  }
+}
+
+.blog-infor {
+  text-align: right;
+}
+
+.blog-detail-body {
+  .s-m {
+    display: inline-flex;
+    cursor: pointer;
+  }
+
+  .s-m a {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(137, 130, 247, .1);
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 22px;
+    text-decoration: none;
+  }
+
+  .s-m {
+    .hv-1 {
+      i {
+        color: color(facebook);
+      }
+
+      a:hover {
+        background: color(facebook);
+
+        i {
+          color: white;
+        }
+      }
+    }
+
+    .hv-2 {
+      i {
+        color: color(twitter);
+      }
+
+      a:hover {
+        background: color(twitter);
+
+        i {
+          color: white;
+        }
+      }
+    }
+
+    .hv-3 {
+      i {
+        color: color(google);
+      }
+
+      a:hover {
+        background: color(google);
+
+        i {
+          color: white;
+        }
+      }
+    }
+
+    .hv-4 {
+      i {
+        color: color(youtube);
+      }
+
+      a:hover {
+        background: color(youtube);
+
+        i {
+          color: white;
+        }
+      }
+    }
+
+    .hv-5 {
+      i {
+        color: #8a3ab9;
+      }
+
+      a:hover {
+        background: color(instagram);
+
+        i {
+          color: white;
+        }
+      }
+    }
+
+  }
+
+  .s-m a i {
+    transition: 0.4s all;
+  }
+
+
+}

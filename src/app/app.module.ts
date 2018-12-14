@@ -29,9 +29,10 @@ import { AboutComponent } from './routes/about/about.component';
 import { IntroComponent } from './components/intro/intro.component';
 import { VideoBoxComponent } from './components/video-box/video-box.component';
 import { CategoryComponent } from './routes/category/category.component';
-import { GalleryComponent } from './components/gallery/gallery.component';
 import { ItemComponent } from './components/_model/cards/item/item.component';
 import { ItemDetailComponent } from './components/_model/cards/item/item-detail/item-detail.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogDetailComponent } from './components/blog/blog-detail/blog-detail.component';
 
 
 @NgModule({
@@ -56,9 +57,10 @@ import { ItemDetailComponent } from './components/_model/cards/item/item-detail/
     IntroComponent,
     VideoBoxComponent,
     CategoryComponent,
-    GalleryComponent,
     ItemComponent,
     ItemDetailComponent,
+    BlogComponent,
+    BlogDetailComponent,
   ],
   imports: [
     CommonModule,
