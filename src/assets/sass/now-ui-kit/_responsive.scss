@@ -364,6 +364,8 @@
   }
 
   app-tips {
+
+
     .container {
       padding-left: 55px !important;
     }
@@ -473,6 +475,23 @@
     .drop-devider {
       height: 50px !important;
     }
+  }
+
+  app-blog-detail {
+    .blog-detail-head {
+      .container {
+        padding-left: 55px !important;
+      }
+
+      .mb-200 {
+        margin-bottom: 50px !important;
+      }
+
+      .blog-infor {
+        text-align: unset !important;
+      }
+    }
+
   }
 }
 

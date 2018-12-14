@@ -9,6 +9,8 @@ import { ContactComponent } from '@app/routes/contact/contact.component';
 import { AboutComponent} from '@app/routes/about/about.component';
 import { CategoryComponent} from '@app/routes/category/category.component';
 import { ItemDetailComponent } from '@app/components/_model/cards/item/item-detail/item-detail.component';
+import { BlogDetailComponent } from './components/blog/blog-detail/blog-detail.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,7 +18,8 @@ const routes: Routes = [
   { path: 'contact', component: ContactComponent},
   { path: 'about', component: AboutComponent},
   { path: 'category', component: CategoryComponent},
-  { path: 'item-detail', component: ItemDetailComponent}
+  { path: 'item-detail', component: ItemDetailComponent},
+  { path: 'blog-detail', component: BlogDetailComponent}
 ];
 
 @NgModule({
