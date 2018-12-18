@@ -16,6 +16,7 @@ export class BlogComponent implements OnInit {
     pullDrag: true,
     navText: ['', ''],  
     autoplay: true,
+    autoplayTimeout: 2500,
     autoplaySpeed: 1000,
     dotsSpeed: 500,
     smartSpeed: 400,
@@ -29,6 +30,9 @@ export class BlogComponent implements OnInit {
   private temps: any;
 
   ngOnInit() {
+    this.loadBlogCards();
+  }
+  loadBlogCards() {
     this.blogCards = this.blogCards.map(i => {
       return (new BlogCard('Design',
         'loresNisi amet aliquip doloconsequat',
