@@ -1,3 +1,33 @@
-<p>
-  blog works!
-</p>
+
+  <div class="row blog align-items-center" >
+    <div class="col-sm-12 col-lg-6">
+      <div class="container blog-title">
+        <div class="ml-auto mr-0 w-50 mw-100">
+          <div class="title-left title-wrapper">
+            <h6 class="sub-title">Blooging is the platform of learning</h6>
+            <h2 class="title">Share your love using <br><span>Blog Posts</span></h2>
+            <div class="tm-text">
+              <p>Softeum is the most advanced blockchain application platform in the world. Developed by early contributors to both Bitcoin and Ethereum, Skycoin is completely secure, infinitely scalable, and ISP independent. Skycoin is the only platform capable of fulfilling Satoshi’s original vision.</p>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-lg-6">
+      <div class="blog-wrapper">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide [width]="360" *ngFor="let temp of temps; let i = index" >
+                <blog-card carouselSlide [blogCard]="blogCards[i]"></blog-card>
+                <blog-card carouselSlide [blogCard]="blogCards[i+space]"></blog-card>
+            </ng-template>
+            <!-- <div ouselSlide>slide</div>
+            <div ouselSlide>slide</div>
+            <div ouselSlide>slide</div> -->
+          <!-- <ng-template carouselSlide>Slide 1</ng-template>
+          <ng-template carouselSlide>Slide 2</ng-template>
+          <ng-template carouselSlide>Slide 3</ng-template> -->
+        </owl-carousel-o>
+      </div>
+    </div>
+  </div>
+

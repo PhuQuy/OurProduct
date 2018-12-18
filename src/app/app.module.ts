@@ -5,9 +5,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app.routing';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NguCarouselModule } from '@ngu/carousel';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -33,6 +32,7 @@ import { ItemComponent } from './components/_model/cards/item/item.component';
 import { ItemDetailComponent } from './components/_model/cards/item/item-detail/item-detail.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogDetailComponent } from './components/blog/blog-detail/blog-detail.component';
+import { BlogCardComponent } from './components/_model/cards/blog-card/blog-card.component';
 
 
 @NgModule({
@@ -61,14 +61,17 @@ import { BlogDetailComponent } from './components/blog/blog-detail/blog-detail.c
     ItemDetailComponent,
     BlogComponent,
     BlogDetailComponent,
+    BlogCardComponent,
   ],
   imports: [
     CommonModule,
+    BrowserModule,
     NgtUniversalModule,
-    NguCarouselModule,
     RouterModule,
+    BrowserAnimationsModule,
     NgbModule.forRoot(),
-    AppRoutingModule
+    AppRoutingModule,
+    CarouselModule
   ],
   providers: [],
 })

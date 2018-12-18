@@ -1,0 +1,30 @@
+$colors: (
+  primary: #4cb5ff,
+  hover: #8982f7,
+);
+@function color($type) {
+    @return map-get($colors, $type);
+  }
+.blog-card {
+    width: 340px;
+    // card-img {
+    //     height: 238.91px;
+    // }
+    a {
+        text-transform: uppercase;
+        color: color(primary)!important;
+        font-weight: 500;
+        font-size: 13px;
+        background:rgba(76, 181, 255, .1);
+        padding: 5px 15px;
+        border-bottom: 25px;
+        border-radius: 100px;
+
+        &:hover {
+            color: color(hover);
+        }
+    }
+    .card-body{
+        padding: 45px 30px;
+    }
+}

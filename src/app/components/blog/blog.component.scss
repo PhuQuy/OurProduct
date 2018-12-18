@@ -1,0 +1,17 @@
+.blog {
+    background: url('assets/images/blogs/blog-bg.jpg') no-repeat center left;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+// medium
+@media (max-width: 991.98px) {
+    
+    .blog-title {
+        .w-50 {
+            width: 100%!important;
+        }
+        margin-bottom: 50px;
+    }
+ }
